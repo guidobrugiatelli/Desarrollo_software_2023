@@ -3,9 +3,11 @@ print("Hola. A continuación seleccione una de las opciones disponibles: ")
 VALOR1="NULL"
 VALOR2="NULL"
 
-while opcion!=7: 
+opcion=0
 
-    print("/n")
+while opcion!=7:
+
+    print("\n")
     print(f"1. Ingresar valor 1 ({VALOR1})")
     print(f"2. Ingresar valor 2 ({VALOR2})")
     print("3. Mostrar suma")
@@ -13,10 +15,13 @@ while opcion!=7:
     print("5. Mostrar multiplicación")
     print("6. Mostrar división")
     print("7. Salir")
-    print("/n")
-    
+    print("\n")
+
     opcion=int(input("Elija una opción:"))
-    print("/n")
+    print("\n")
+
+    if opcion == 7:
+        break
 
     if opcion==1:
         VALOR1=int(input("Ingresar el valor 1: "))
@@ -29,7 +34,7 @@ while opcion!=7:
 
     elif VALOR2=="NULL":
         print("Falta ingresar el valor 2")
-    
+
     else:
         if opcion==3:
             print(F"El valor de la suma es: {VALOR1+VALOR2}")
