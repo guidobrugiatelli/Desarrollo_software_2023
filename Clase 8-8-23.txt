@@ -1,0 +1,8 @@
+Funciones: 
+Nombre-> Verbo
+Debe hacer una sola actividad
+
+Pasaje por valor ---> Se pasa el valor de la variable, no la variable, solo el valor de ella. Se usa para datos primitivos (int, float, string, etc).
+
+Pasaje por referencia ---> Para datos complejos como listas, diccionarios, etc. Lo que hace se pasa una referencia, un identidficador y se opera directamente con el dato.
+
