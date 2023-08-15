@@ -21,7 +21,7 @@ while opcion!=7:
     print("\n")
 
     if opcion == 7:
-        print("bye cowboy!")
+        print("bye!")
         print("""\
 
                                        ._ o o
